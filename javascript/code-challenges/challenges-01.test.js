@@ -89,12 +89,12 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   const newArr = [];
-  newArr.push(arr,value);
+  newArr.push(value);
 
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+
 };
 
 /* ------------------------------------------------------------------------------------------------
