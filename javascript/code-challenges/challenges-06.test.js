@@ -41,8 +41,13 @@ Write a function that appends ' The end.' to a string, and returns the modified 
 ------------------------------------------------------------------------------------------------ */
 
 const appendTheEnd = (str) => {
+<<<<<<< HEAD
   let modStr = str + ' The end.';
   return modStr;
+=======
+  str.push(' The end.');
+  return str;
+>>>>>>> 1d6941041af36f87f9d341317a3541d1fdf59f92
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,6 +82,10 @@ console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 ------------------------------------------------------------------------------------------------ */
 
 const addBirthYearProperty = (obj, year) => obj.yearBorn = year;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d6941041af36f87f9d341317a3541d1fdf59f92
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5 - Stretch Goal
