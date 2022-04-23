@@ -23,9 +23,7 @@ For example:
 
 return: 23
 ------------------------------------------------------------------------------------------------ */
-const findMax = (matrix) => {
-  // Solution code here...
-};
+const findMax = matrix => Math.max(...[].concat(...matrix));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -42,7 +40,7 @@ For example:
 return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
-  // Solution code here...
+// need help with this one.
 };
 
 
@@ -69,7 +67,8 @@ const alkiBeach = [33, 31, 147, 130, 27, 93, 38, 126, 141, 63, 46, 17];
 const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
-  // Solution code here...
+  let newArr = [];
+
 
 };
 
