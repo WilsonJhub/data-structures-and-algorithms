@@ -23,9 +23,8 @@ For example:
 
 return: 23
 ------------------------------------------------------------------------------------------------ */
-const findMax = (matrix) => {
-  // Solution code here...
-};
+const findMax = matrix => Math.max(...[].concat(...matrix));
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -42,7 +41,8 @@ For example:
 return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
-  // Solution code here...
+  let sumArr = matrix.flat(Infinity);
+  return sumArr.reduce((x, y) => x + y, 0);
 };
 
 
@@ -69,8 +69,16 @@ const alkiBeach = [33, 31, 147, 130, 27, 93, 38, 126, 141, 63, 46, 17];
 const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
-  // Solution code here...
-
+  let newArr = [];
+  let sumArr = 0;
+  for(let hrs = 0; hrs < stores[0].length; hrs++) {
+    for(let i = 0; i < stores.length; i++) {
+      sumArr += stores[i][hrs];
+    }
+    newArr.push(sumArr);
+    sumArr = 0;
+  }
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -84,7 +92,9 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 ------------------------------------------------------------------------------------------------ */
 
 const salesData = (hours, data) => {
-  // Solution code here...
+
+  return hours.map((x, y) => ({ sales: `${data[y]} cookies`, time: x}));
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -109,7 +119,14 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  for(let i = 0; i < arr.length; i++)
+    if (arr[i].store === 'Pet store') {
+      for(let x = 0; x < arr[i].items.length; x++) {
+        if (arr[i].items[x].name === 'Treats') {
+          return arr[i].items[x].quantity;
+        }
+      }
+    }
 };
 
 /* ------------------------------------------------------------------------------------------------
