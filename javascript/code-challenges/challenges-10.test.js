@@ -24,7 +24,10 @@ For example:
 return: 23
 ------------------------------------------------------------------------------------------------ */
 const findMax = matrix => Math.max(...[].concat(...matrix));
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf3d1fe660243fd9a274590a21f576741b8cd916
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -41,8 +44,12 @@ For example:
 return: 35
 ------------------------------------------------------------------------------------------------ */
 const totalSum = (matrix) => {
+<<<<<<< HEAD
   let sumArr = matrix.flat(Infinity);
   return sumArr.reduce((x, y) => x + y, 0);
+=======
+// need help with this one.
+>>>>>>> bf3d1fe660243fd9a274590a21f576741b8cd916
 };
 
 
@@ -70,6 +77,7 @@ const cookieStores = [firstPike, seaTac, seattleCenter, capHill, alkiBeach];
 
 const grandTotal = (stores) => {
   let newArr = [];
+<<<<<<< HEAD
   let sumArr = 0;
   for(let hrs = 0; hrs < stores[0].length; hrs++) {
     for(let i = 0; i < stores.length; i++) {
@@ -79,6 +87,10 @@ const grandTotal = (stores) => {
     sumArr = 0;
   }
   return newArr;
+=======
+
+
+>>>>>>> bf3d1fe660243fd9a274590a21f576741b8cd916
 };
 
 /* ------------------------------------------------------------------------------------------------
