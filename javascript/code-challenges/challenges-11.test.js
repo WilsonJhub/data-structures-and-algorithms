@@ -19,8 +19,18 @@ Becomes:
 ------------------------------------------------------------------------------------------------ */
 
 function transformToLis(obj){
+<<<<<<< HEAD
   // Solution code here...
 };
+=======
+  let newArr = Object.keys(obj).map((keyValue) => {
+    return (
+      `<li>${keyValue}: ${obj[keyValue]}</li>`
+    );
+  });
+  return newArr;
+}
+>>>>>>> 38fd5bb959154e71aae788f1eca9175f0a13ba57
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
