@@ -9,3 +9,5 @@
 Location: `codechallenges/linkedlist/LinkedListChallenges`
 
 Method: `linkedListChallenge06()`
+
+![Reverse Array Problem Domain](/java/datastructures/problemdomains.jpg/reverse-array.jpg)
