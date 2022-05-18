@@ -10,4 +10,8 @@ Location: `codechallenges/linkedlist/LinkedListChallenges`
 
 Method: `linkedListChallenge06()`
 
-![Reverse Array Problem Domain](/java/datastructures/problemdomains.jpg/reverse-array.jpg)
+
+
+### Table of Contents:
+1. Challenge 01 - ![Reverse Array Problem Domain](/java/datastructures/problemdomains.jpg/reverse-array.jpg)
+2. Challenge 02 - ![Insert Shift Array Problem Domain](/java/datastructures/problemdomains.jpg/insertShiftArray.jpg)
