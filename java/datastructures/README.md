@@ -16,3 +16,4 @@ Method: `linkedListChallenge06()`
 1. Challenge 01 - ![Reverse Array Problem Domain](/java/datastructures/problemdomains.jpg/reverse-array.jpg)
 2. Challenge 02 - ![Insert Shift Array Problem Domain](/java/datastructures/problemdomains.jpg/insertShiftArray.jpg)
 3. Challenge 03 = ![Binary Search](/problemdomains.jpg/binary-search.jpg)
+4. Challenge 04 = ![Fib Sequence](/problemdomains.jpg/fibonacci%20sequence.jpg)
