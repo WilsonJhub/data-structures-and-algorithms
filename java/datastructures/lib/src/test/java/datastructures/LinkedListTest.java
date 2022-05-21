@@ -13,5 +13,11 @@ public class LinkedListTest {
 
   }
 
+  @Test
+  public void testEmpty() {
+    LinkedList sut = new LinkedList();
+    assert(sut.head == null);
+  }
+
 
 }

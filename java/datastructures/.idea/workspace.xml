@@ -19,21 +19,9 @@
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/codechallenges/linkedlist/LinkedListChallenges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/datastructures/linkedlist/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/codechallenges/linkedlist/LinkedListChallengesTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/datastructures/linkedlist/LinkedListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemdomains.jpg/binary-search.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemdomains.jpg/fibonacci sequence.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemdomains.jpg/insertShiftArray.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/problemdomains.jpg/reverse-array.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/main/java/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/test/java/datastructures/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/datastructures/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653081745170</updated>
       <workItem from="1653081748281" duration="353000" />
-      <workItem from="1653082133302" duration="3824000" />
+      <workItem from="1653082133302" duration="7202000" />
     </task>
     <servers />
   </component>
@@ -171,5 +159,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lib/src/main/java/datastructures/linkedlist/LinkedList.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
