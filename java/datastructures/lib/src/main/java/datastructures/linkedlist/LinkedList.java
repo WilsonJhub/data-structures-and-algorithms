@@ -1,5 +1,5 @@
 package datastructures.linkedlist;
-
+import datastructures.linkedlist.Node;
 
 public class LinkedList {
   int myInt = 3;
@@ -9,27 +9,37 @@ public class LinkedList {
 
   public LinkedList(){
     this.head = null;
-  this.tail = null;
+    this.tail = null;
   }
   public void insert(int value) {
-    if(head == null){
-      head = new Node(value);
-      return;
+    Node newNode = new Node(value);
+    if(head != null){
+      newNode.next = head;
     }
-    Node temp = new Node(value);
-    temp.next=head;
-    tail = head;
-    head = temp;
-  }
+    if(head == null) {
+      tail = newNode;
+    }
+    head = newNode;
+    }
+
   public boolean includes(int value){
+    if(this.head == null) return false;
     Node current = head;
-    while (current != null){
-      if(value == current.value)
+    while(current != null){
+      if(current.value == value){
         return true;
+      }
       current = current.next;
     }
     return false;
   }
+  public void append (int value){
+    Node newNode = new Node(value){
+      tail.next = newNode;
+      }
+    }
+  }
+
 //  @Override
 //  public String toString(){
 //    String temp = "";
