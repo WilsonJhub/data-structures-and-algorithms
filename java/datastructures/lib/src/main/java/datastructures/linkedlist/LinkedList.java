@@ -2,7 +2,7 @@ package datastructures.linkedlist;
 import datastructures.linkedlist.Node;
 
 public class LinkedList {
-  int myInt = 3;
+//  int myInt = 3;
   public Node head;
   Node tail;
 
@@ -12,13 +12,19 @@ public class LinkedList {
     this.tail = null;
   }
   public void insert(int value) {
+    //newNode var of type Node (class) = new Node object with argument of (value)
     Node newNode = new Node(value);
+    // here we're saying if the Head is not equal to null -> then run the method newNode.next = head;
     if(head != null){
+      // the NEXT NODE will be promoted to the title of "head" in the LinkedList.
       newNode.next = head;
     }
+    // but if that head is equal to null... then...
     if(head == null) {
+// tail will equal a newNode. and newNode was defined as a new object named Node with (value) as an argument.
       tail = newNode;
     }
+    // head will also
     head = newNode;
     }
 
@@ -33,12 +39,44 @@ public class LinkedList {
     }
     return false;
   }
-  public void append (int value){
-    Node newNode = new Node(value){
-      tail.next = newNode;
+  public void append(int value){
+    Node newNode = new Node(value);
+    tail.next = newNode;
+    tail = newNode;
+  }
+  public void insertBefore(int value, int match){
+    Node newNode = new Node(value);
+    if(head.value == match){
+      newNode.next = head;
+      head = newNode;
+    }
+    Node current = head;
+    Node prev = head;
+    while(current != null){
+      current = current.next;
+      if(current.value == match){
+        newNode.next = current;
+        prev.next = newNode;
+        break;
       }
+      prev = current;
     }
   }
+  public void insertAfter(int value,int match) {
+    Node newNode = new Node(value);
+    Node current = head;
+    while(current != null){
+      if(current.value == match){
+        newNode.next = current.next;
+        current.next = newNode;
+        if(newNode.next == null){
+          tail = newNode;
+        }
+      }
+      current = current.next;
+  }
+}
+
 
 //  @Override
 //  public String toString(){
