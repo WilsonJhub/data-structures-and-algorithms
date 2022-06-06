@@ -5,7 +5,7 @@ public class LinkedList {
 //  int myInt = 3;
   public Node head;
   Node tail;
-
+  public int listLength = 0;
 
   public LinkedList(){
     this.head = null;
@@ -76,6 +76,20 @@ public class LinkedList {
       current = current.next;
   }
 }
+
+  public void kthFromEnd(int k){
+    if(k >= listLength || k < 0){
+
+    }
+    int stopPoint = listLength - k;
+    Node current = head;
+    for(int i = 0; i < stopPoint; i++){
+      if(i == stopPoint - 1){
+        int value = current.value;
+      }
+      current = current.next;
+    }
+  }
 
 
 //  @Override
