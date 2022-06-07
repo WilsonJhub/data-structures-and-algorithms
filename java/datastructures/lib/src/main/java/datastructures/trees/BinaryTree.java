@@ -1,8 +1,11 @@
 package datastructures.trees;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
 
-public class BinaryTree<T> {
+public class BinaryTree {
   public ArrayList<Integer> tNodeArrayList;
+  public List<Integer> levels = new ArrayList<>();
   public Node<Integer> tNode;
 
   public BinaryTree(){
@@ -53,6 +56,21 @@ public class BinaryTree<T> {
     return num;
   }
 
+
+  public void helper(Node<Integer> node, int level) {
+
+//    if (levels.size() == level)
+//      levels.add(node.value);
+        levels.add(node.value);
+    if (node.left != null)
+      helper(node.left, level + 1);
+    if (node.right != null)
+      helper(node.right, level + 1);
+  }    public List<Integer> levelOrder(Node<Integer> root) {
+    if (root == null) return levels;
+    helper(root, 0);
+    return levels;
+  }
 
   }
 

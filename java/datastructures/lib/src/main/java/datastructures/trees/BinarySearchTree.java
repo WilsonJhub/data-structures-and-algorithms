@@ -3,7 +3,7 @@ package datastructures.trees;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class BinarySearchTree extends BinaryTree<Integer> {
+public class BinarySearchTree extends BinaryTree {
   // this is my method that I call to add recursive operation.
   public void add(int value){
     add(tNode, value);
