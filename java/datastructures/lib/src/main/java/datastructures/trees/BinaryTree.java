@@ -42,6 +42,18 @@ public class BinaryTree<T> {
     }
   }
 
+  public int maxValOfTree(){
+
+    int num = 0;
+    for(int i = 0; i < tNodeArrayList.size(); i++){
+      if(num < tNodeArrayList.get(i)){
+        num = tNodeArrayList.get(i);
+      }
+    }
+    return num;
+  }
+
+
   }
 
 
