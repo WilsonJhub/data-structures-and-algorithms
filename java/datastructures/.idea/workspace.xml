@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60603263-4100-4591-9c28-54e54dea8785" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/datastructures/trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/datastructures/trees/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="29RhKC7MQNxVkCfshN3eFZlaYv5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -66,7 +68,30 @@
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.NodeTest.dummy">
+  <component name="RunManager" selected="Gradle.BinaryTreeTest.testingMaxTreeValue">
+    <configuration name="BinaryTreeTest.testingMaxTreeValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.BinaryTreeTest.testingMaxTreeValue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -81,6 +106,29 @@
             <option value=":lib:test" />
             <option value="--tests" />
             <option value="&quot;datastructures.LibraryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LinkedListTest.someLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;datastructures.LinkedListTest.someLinkedListTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,6 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryTreeTest.testingMaxTreeValue" />
+        <item itemvalue="Gradle.LinkedListTest.someLinkedListTest" />
         <item itemvalue="Gradle.NodeTest.dummy" />
         <item itemvalue="Gradle.LibraryTest" />
       </list>
@@ -141,6 +191,9 @@
       <workItem from="1654361811538" duration="1572000" />
       <workItem from="1654366072604" duration="3150000" />
       <workItem from="1654565257083" duration="3394000" />
+      <workItem from="1654608600503" duration="31000" />
+      <workItem from="1654614049665" duration="613000" />
+      <workItem from="1654620833823" duration="1577000" />
     </task>
     <servers />
   </component>
