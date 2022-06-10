@@ -6,6 +6,8 @@ import java.util.List;
 public class BinaryTree {
   public ArrayList<Integer> tNodeArrayList;
   public List<Integer> levels = new ArrayList<>();
+
+  public List<Integer> fbList = new ArrayList<>();
   public Node<Integer> tNode;
 
   public BinaryTree(){
@@ -71,6 +73,8 @@ public class BinaryTree {
     helper(root, 0);
     return levels;
   }
+
+  public fizzBuzzTree(k-ary tree)
 
   }
 
