@@ -10,10 +10,22 @@ public class HashMap {
 
   <String, Integer> javaStudents = new java.util.HashMap<>();
 
+
+
+
+
+
+
+
+
+
+
+
+
   // .put adds to HashMap
-  javaStudents.put("Raul", 32);
-  javaStudents.put("Roger", 28);
-  javaStudents.put("Jason", 26);
+    //  javaStudents.put("Raul", 32);
+    //  javaStudents.put("Roger", 28);
+    //  javaStudents.put("Jason", 26);
 
     // .remove() - will delete the selected key and value
     // javaStudents.remove("Roger");
