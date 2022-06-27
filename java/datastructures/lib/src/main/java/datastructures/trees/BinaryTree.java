@@ -74,7 +74,7 @@ public class BinaryTree {
     return levels;
   }
 
-  public fizzBuzzTree(k-ary tree)
+//  public fizzBuzzTree(k-ary tree)
 
   }
 
