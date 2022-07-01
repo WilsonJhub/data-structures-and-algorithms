@@ -1,0 +1,13 @@
+
+‰
+java:S1319"nThe type of "tNodeArrayList" should be an interface such as "List" rather than the implementation "ArrayList".(¥Æİ£øÿÿÿÿ
+u
+java:S1104"ZMake tNodeArrayList a static final constant or non-public and provide accessors if needed.(¥Æİ£øÿÿÿÿ
+h
+java:S1104"RMake levels a static final constant or non-public and provide accessors if needed.(­ëòÃ
+m
+java:S1104
+"RMake fbList a static final constant or non-public and provide accessors if needed.(áúš øÿÿÿÿ
+l
+java:S1104"QMake tNode a static final constant or non-public and provide accessors if needed.(ôÓ³ıÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(ìÿı·
