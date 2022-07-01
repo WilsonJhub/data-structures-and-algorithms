@@ -7,3 +7,15 @@ e
 5lib/src/main/java/datastructures/linkedlist/Node.java,5\c\5cca3c4e39deb3a1fa2d65d88bc82da3f6a4b61a
 k
 ;lib/src/main/java/datastructures/linkedlist/LinkedList.java,5\9\59d0440e20e87b4e3b3f79819552d94b58b46d50
+d
+4lib/src/test/java/datastructures/LinkedListTest.java,1\e\1e074fde90f7326ae5349ae1834d47e2f347b83e
+l
+<lib/src/main/java/datastructures/hashingstuff/Hashtable.java,e\d\ed3b36d99153c0177cab3ed6898cb1d3e4e895a4
+f
+6lib/src/main/java/datastructures/trees/BinaryTree.java,1\3\134cbf61aa3dfd1b8642947f3dafc15e3e39bb60
+g
+7lib/src/test/java/datastructures/InsertionSortTest.java,2\2\22f5278981d8bb03f41588d3ab3528691d928792
+q
+Alib/src/main/java/datastructures/insertionsort/InsertionSort.java,e\f\efaaa79044254be689d1b029def8226fe7baaf7d
+i
+9lib/src/main/java/datastructures/mergesort/MergeSort.java,c\9\c9bc9cec234975dec7b13ad8583decfd05b7081e
