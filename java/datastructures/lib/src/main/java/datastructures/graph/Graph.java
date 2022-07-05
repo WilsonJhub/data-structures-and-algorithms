@@ -1,6 +1,6 @@
 package datastructures.graph;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 //REFERENCED FROM COURSERA.ORG
 
@@ -13,7 +13,7 @@ public abstract class Graph {
  private int numVertices;
  private int numEdges;
 
-// LinkedList<Integer> adjLists[];
+ ArrayList<Integer> adjLists[];
 
   public Graph(){
    numVertices = 0;
@@ -34,7 +34,17 @@ public abstract class Graph {
 
   // We care about the relationships between Nodes(Vertices) and if we have a particular node that we want to think about then we want to know
   // which vertices are adjacent to it. If our Nodes are cities... then we would like to know which other cities could we get to just by following a single road(Edge)
-  public abstract LinkedList<Integer> getNeighbors(int v);
+  public abstract ArrayList<Integer> getNeighbors(int v);
 
+  public int getNumVertices() {
+    return numVertices;
+  }
 
+  public int getNumEdges() {
+    return numEdges;
+  }
+
+  public ArrayList<Integer>[] getAdjLists() {
+    return adjLists;
+  }
 }
