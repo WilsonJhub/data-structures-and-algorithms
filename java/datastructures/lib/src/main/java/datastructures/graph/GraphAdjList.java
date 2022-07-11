@@ -1,7 +1,7 @@
 package datastructures.graph;
 
 import java.util.ArrayList;
-
+// Learning how to implement Graphs
 
 public class GraphAdjList extends Graph{
   @Override
