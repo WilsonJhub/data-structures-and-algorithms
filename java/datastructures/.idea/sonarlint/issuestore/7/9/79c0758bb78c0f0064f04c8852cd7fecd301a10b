@@ -1,0 +1,15 @@
+
+_
+java:S1854
+"=Remove this useless assignment to local variable "neighbors".(Úáèÿÿÿÿÿ8¦Ü¬£0
+Q
+java:S1854	"5Remove this useless assignment to local variable "v".(Çš…T8¦Ü¬£0
+B
+java:S1481	"&Remove this unused "v" local variable.(Çš…T8¦Ü¬£0
+P
+java:S1481
+".Remove this unused "neighbors" local variable.(Úáèÿÿÿÿÿ8¦Ü¬£0
+X	java:S125"<This block of commented-out lines of code should be removed.(”ÑÎŸ8‘¦Ü¬£0
+W	java:S125"<This block of commented-out lines of code should be removed.(ñÕÚ8’¦Ü¬£0
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
